@@ -51,21 +51,21 @@ This created the working directory: `lerobot/vqbet_pusht_migrated/`
 
 The evaluation was run for 10 episodes on the `pusht` environment using the migrated VQ-BeT model on the CPU:
 
-python -m lerobot.scripts.lerobot_eval
+`python -m lerobot.scripts.lerobot_eval`
 
---env.type=pusht
+`--env.type=pusht`
 
---policy.type=vqbet
+`--policy.type=vqbet`
 
---policy.pretrained_path=lerobot/vqbet_pusht_migrated
+`--policy.pretrained_path=lerobot/vqbet_pusht_migrated`
 
---eval.n_episodes=10
+`--eval.n_episodes=10`
 
---eval.batch_size=5
+`--eval.batch_size=5`
 
---policy.device=cpu
+`--policy.device=cpu`
 
---policy.use_amp=false
+`--policy.use_amp=false`
 
 
 ---
@@ -74,12 +74,12 @@ python -m lerobot.scripts.lerobot_eval
 
 The evaluation was conducted over 10 episodes. The key metrics recorded are:
 
-| Metric | Value |
+`| Metric | Value |
 | :--- | :--- |
 | **Episodes** | 10 |
 | **Success Rate** | 40% |
 | **Average Sum Reward** | 57.43 |
-| **Average Max Reward** | 0.53 |
+| **Average Max Reward** | 0.53 |`
 
 The full evaluation log and metrics are saved in `assignment/results/eval_summary.txt`.
 
@@ -88,3 +88,4 @@ The full evaluation log and metrics are saved in `assignment/results/eval_summar
 ### 🎥 Evaluation Videos
 
 The 10 rollout videos generated during the evaluation process can be found in the `assignment/videos/` directory.
+
