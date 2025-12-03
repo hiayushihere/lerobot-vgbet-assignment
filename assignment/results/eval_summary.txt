@@ -1,0 +1,27 @@
+VQ-BeT Evaluation Summary - PushT-vO
+Model: VQ-BeT (migrated)
+Environment: PushT-v0
+Device: CPU
+Episodes Evaluated: 10
+Batch Size: 5
+Overall Results
+• Average Sum Reward: 57.44
+• Average Max Reward: 0.53
+• Success Rate: 40%
+• Total Evaluation Time: ~19.63 seconds
+• Avg Time per Episode: ~1.96 seconds
+
+Episode-Level Performance
+Episode	Success	Sum Reward
+0	❌	4.85
+1	❌	0.00
+2	❌	96.87
+3	✅	33.69
+4	❌	54.98
+5	✅	90.02
+6	❌	40.17
+7	✅	41.18
+8	✅	129.78
+9	❌	82.84
+Successful Episodes: 4
+Failed Episodes: 6
