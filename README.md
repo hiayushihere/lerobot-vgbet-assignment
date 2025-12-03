@@ -6,12 +6,8 @@ The task involved setting up the LeRobot environment, migrating the pretrained V
 
 ---
 
-### 📁 Folder Structure
 
-assignment/ │ ├── videos/ # Evaluation episode videos (10 episodes) │ └── results/ └── eval_summary.txt # Evaluation metrics summary
-
-
-### 🔧 Setup and Execution Details
+###  Setup and Execution Details
 
 The following exact steps were used to set up the environment and run the evaluation:
 
@@ -70,7 +66,7 @@ The evaluation was run for 10 episodes on the `pusht` environment using the migr
 
 ---
 
-### 📊 Evaluation Summary
+### Evaluation Summary
 
 The evaluation was conducted over 10 episodes. The key metrics recorded are:
 
@@ -85,8 +81,9 @@ The full evaluation log and metrics are saved in `assignment/results/eval_summar
 
 ---
 
-### 🎥 Evaluation Videos
+###  Evaluation Videos
 
 The 10 rollout videos generated during the evaluation process can be found in the `assignment/videos/` directory.
+
 
 
