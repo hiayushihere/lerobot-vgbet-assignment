@@ -74,12 +74,12 @@ The evaluation was run for 10 episodes on the `pusht` environment using the migr
 
 The evaluation was conducted over 10 episodes. The key metrics recorded are:
 
-`| Metric | Value |
+| Metric | Value |
 | :--- | :--- |
 | **Episodes** | 10 |
 | **Success Rate** | 40% |
 | **Average Sum Reward** | 57.43 |
-| **Average Max Reward** | 0.53 |`
+| **Average Max Reward** | 0.53 |
 
 The full evaluation log and metrics are saved in `assignment/results/eval_summary.txt`.
 
@@ -88,4 +88,5 @@ The full evaluation log and metrics are saved in `assignment/results/eval_summar
 ### 🎥 Evaluation Videos
 
 The 10 rollout videos generated during the evaluation process can be found in the `assignment/videos/` directory.
+
 
